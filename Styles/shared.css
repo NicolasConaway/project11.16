@@ -13,6 +13,8 @@ header {
     padding: 1% 0%;
     background-color: rgb(41, 54, 80);
     box-shadow: 0px 1px 6px black;
+    position: sticky;
+    top: 0;
 }
 
 h1 {
@@ -99,4 +101,25 @@ h1 {
     background-color: rgb(70, 85, 114);
     border-radius: 10px;
     box-shadow: inset 2px 3px 4px black, inset -2px -3px 4px black;
+}
+
+/* 
+    Main body styles
+*/
+.mainBody {
+    width: 90%;
+    height: 100vh;
+    margin: 0 5%;
+    background-color: white;
+    box-shadow: 1px 0px 6px black, -1px 0px 6px black;
+    color: black;
+}
+.mainBody h3 {
+    margin: 0;
+    padding: 2% 0;
+    text-align: center;
+}
+.mainBody h3 span {
+    color:  rgb(151, 150, 67);
+    text-decoration: underline;
 }
