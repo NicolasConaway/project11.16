@@ -57,13 +57,13 @@ h1 {
     background-color: white;
 }
 .hamToggle .topBar {
-    transform: rotate(-45deg) translate(-6px, 7px);
+    transform: rotate(-45deg) translate(-7px, 7px);
 }
 .hamToggle .middleBar{
     background-color: rgba(255, 255, 255, 0);
 }
 .hamToggle .bottomBar {
-    transform: rotate(45deg) translate(-6px, -5px);
+    transform: rotate(45deg) translate(-5px, -5px);
 }
 
 /* 
